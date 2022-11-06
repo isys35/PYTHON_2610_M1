@@ -1,0 +1,7 @@
+print("Enter 2 numbers")
+num1 = input()
+num1 = float(num1)
+num2 = input()
+num2 = float(num2)
+print("Sum:", num1+num2, "\nDifference:", num1-num2, "\nProduct:", num1*num2)
+print("Quotient of:", num1/num2, "\nModulo:", num1 % num2, "\nA to the B power:", num1**num2)
