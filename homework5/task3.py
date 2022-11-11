@@ -10,5 +10,8 @@ def days_of_the_week(a):
     }[True]
 
 
-day = int(input("Enter the number: "))
+while True:
+    day = int(input("Enter the number: "))
+    if 1 <= day <= 7:
+        break
 print(days_of_the_week(day))
