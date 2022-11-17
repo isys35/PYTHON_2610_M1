@@ -5,7 +5,7 @@ while user_answer != compnum:
     count += 1
     if user_answer > compnum:
         print("Число больше загаданного")
-    if user_answer < compnum:
+    else:
         print("Число меньше загаданного")
     user_answer = int(input(f"Well done,\nyou took {count} attempts\n"))
 print("Вы угадали")
