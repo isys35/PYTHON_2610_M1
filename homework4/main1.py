@@ -1,0 +1,5 @@
+order = input("Restaurant order amount: ")
+order = float(order)
+print("Tips:", round((order*0.18), 2))
+print("Tax:", round((order*0.04), 2))
+print("Total:", round((order*1.22), 2))
