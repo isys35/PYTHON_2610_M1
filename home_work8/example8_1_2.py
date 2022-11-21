@@ -5,6 +5,7 @@ try:
     total = sum + tips + tax
     print('сумма налога = ', round(tax, 2))
     print(f'сумма чаевых официанту = {tips:.2f}')
-    print("итог = {:.2f}".format(total))
-except ValueError:
+    print('итог = {:.2f}'.format(total))
+except ValueError as a:
+    print('Сведения об исключении:', a)
     print('Вы ввели буквы, а не числа.\nБудьте внимательней.')
