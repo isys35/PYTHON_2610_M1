@@ -1,5 +1,6 @@
 import numpy
 
+
 def bubble_sort(numbers_list):
     for i in range(len(numbers_list) - 1, 0, -1):
         for j in range(i):
@@ -8,6 +9,5 @@ def bubble_sort(numbers_list):
     return numbers_list
 
 
-size = int(input("Введите размер списка: "))
+size = int(input("Enter list size: "))
 print(bubble_sort(numpy.random.randint(0, 100, size)))
-
