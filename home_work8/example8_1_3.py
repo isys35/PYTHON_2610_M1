@@ -19,5 +19,5 @@ except ValueError:
     print('Вы ввели буквы, а не числа.\nБудьте внимательней.\nПопробуйте снова.')
 except ZeroDivisionError:
     print('На ноль (0) делить нельзя.\nПопробуйте снова.')
-except BaseException:
+except Exception:
     print("Общее исключение.\nПопробуйте снова.")

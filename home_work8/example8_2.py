@@ -15,7 +15,7 @@ def odd_num(unsorted: list) -> List[int]:
     for i in unsorted:
         if i % 2 != 0:
             sorted_list.append(i)
-    return sorted_list
+    return [i for i in unsorted if i % 2 != 0]
 
 
 if __name__ == '__main__':
