@@ -11,10 +11,6 @@ def generate_list(size: int) -> List[int]:
 
 
 def odd_num(unsorted: list) -> List[int]:
-    sorted_list = []
-    for i in unsorted:
-        if i % 2 != 0:
-            sorted_list.append(i)
     return [i for i in unsorted if i % 2 != 0]
 
 
