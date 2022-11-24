@@ -14,6 +14,5 @@
  # с помощью генератора списка
  list_number = [i + 1 for i in range(0, user_number)]
  reverse_list_number = list_number[::-1]
- dict_number = {}
  dict_number = dict(zip(list_number, reverse_list_number))
  print(dict_number)
