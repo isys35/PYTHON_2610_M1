@@ -13,3 +13,4 @@ for i in range(len(num_list)-1):
         if num_list[j] > num_list[j + 1]:
             num_list[j], num_list[j + 1] = num_list[j + 1], num_list[j]
 print(num_list)
+
