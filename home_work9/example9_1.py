@@ -1,16 +1,16 @@
-def kcal(f, c):
-    print(f"Каллории от жиров: = {f * 9:.2f}\n"
-        f"Каллории от углеводов: = {c * 4:.2f}\n"
-        f"Общее количество калорий: = {((f * 9) + (c * 4)):.2f}")
+def kcal(fat, carbohydrates):
+    print(f"Каллории от жиров: = {fat * 9:.2f}\n"
+        f"Каллории от углеводов: = {carbohydrates * 4:.2f}\n"
+        f"Общее количество калорий: = {((fat * 9) + (carbohydrates * 4)):.2f}")
 
 
 if __name__ == '__main__':
     try:
-        fat = float(input("Граммы жиров = "))
-        carbohydrates = float(input("Граммы углеводов = "))
-        if fat == 0 or carbohydrates == 0:
+        user_fat = float(input("Граммы жиров = "))
+        user_carbohydrates = float(input("Граммы углеводов = "))
+        if user_fat == 0 or user_carbohydrates == 0:
             raise Exception
-        kcal(fat, carbohydrates)
+        kcal(user_fat, user_carbohydrates)
     except ValueError:
         print('Вы ввели буквы, а не числа.\nБудьте внимательней.\nПопробуйте снова.')
     except Exception:
