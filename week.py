@@ -1,5 +1,4 @@
 x = int(input("Введите число от 1 до 7:"))
-if x == 1 or 2 or 3 or 4 or 5 or 6 or 7:
     if x == 1:
         print("Понедельник")
     elif x == 2:
