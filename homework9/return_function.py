@@ -8,3 +8,10 @@ if __name__ == '__main__':
     def func3():
         print("Hello")
     func2(func3, 5)
+
+
+# def get(func, n):
+#     def inner():
+#         for _ in range(n):
+#             func()
+#     return inner

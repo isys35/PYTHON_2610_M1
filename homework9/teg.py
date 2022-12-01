@@ -8,9 +8,9 @@ def html(func):
 
 
 @html
-def teg(text):
+def get_tag(text):
     return text
 
 
 if __name__ == '__main__':
-    print(teg("Hello"))
+    print(get_tag("Hello"))

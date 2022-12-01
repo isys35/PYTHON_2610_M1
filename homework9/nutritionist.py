@@ -1,6 +1,7 @@
-def kkal(fat, carb):
+def calculate_kkal(fat, carb):
     print(f"Калории от жиров: {fat * 9}")
     print(f"Калории от углеводов: {carb * 4}")
+    print(f"Всего калорий в день: {fat * 9 + carb * 4}")
 
 
 if __name__ == '__main__':
@@ -10,4 +11,4 @@ if __name__ == '__main__':
     except ValueError:
         print("Ошибка!")
     else:
-        kkal(fat, carb)
+        calculate_kkal(fat, carb)
