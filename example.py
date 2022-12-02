@@ -5,12 +5,7 @@ def get(c, n):
 
     return new
 
-def say_hi():
-    print("Привет")
 
-
-a = get(say_hi, 5)()
-print(a)
 
 
 
