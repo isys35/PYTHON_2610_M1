@@ -1,6 +1,7 @@
-def numbers(*args):
-    x = max(args)
-    y = min(args)
-    z = sum(args)/len(args)
-    return [y, z, x]
+def get_max_min_mean(*args):
+    return max(args), min(args), sum(args)/len(args)
+
+
+
+
 

@@ -1,15 +1,8 @@
-def numbers(a):
-    print(a)
-    z = len(a)
-    f = 0
-    j = 0
-    while f < z:
-        if 0 == a[j] % 2:
-            j = j + 1
-            f = f + 1
-        else:
-            del a[j]
-            f = f + 1
-    a.sort()
-    print(a)
+def filter_odd_numbers(init_list):
+    result_list = []
+    for number in init_list:
+        if number % 2 == 0:
+            result_list.append(number)
+    result_list.sort()
+    return result_list
 
