@@ -1,3 +1,12 @@
+"""
+Задача 1
+
+Напишите программу, в которой используется словарь. Ключами в словаре являются фамилии писателей, а значение
+соответствующего элемента — название произведения, написанного автором. В программе перебираются значения всех
+элементов словаря, и для каждого значения (название произведения) пользователю предлагается указать фамилию автора.
+После перебора содержимого словаря и получения всех ответов программа отображает количество правильных ответов
+пользователя. """
+
 import sys
 
 quiz = {
@@ -5,15 +14,33 @@ quiz = {
     'Толстой': 'Война и мир',
     'Гоголь': 'Вий'
 }
-hello = input("Привет! Хочешь пройти викторину? Yes/No\n")
-if hello.lower() != "yes":
-   sys.exit()
-right_answers_count = 0
-for author, title in quiz.items():
-    answer = input(f"Назовите автора произведения {title}: ")
-    if answer.lower() == author.lower():
-        right_answers_count += 1
-        print("Верно!")
-    else:
-        print("Вы ошиблись.")
-print(f"Ваш результат: {right_answers_count} из {len(quiz)}")
+
+
+def start_quiz() -> int:
+    """
+    Функция запускает викторину.
+
+    :return: Количество правильных ответов
+    """
+    right_answers_count = 0
+    for author, title in quiz.items():
+        answer = input(f"Назовите автора произведения {title}: ")
+        if answer.lower() == author.lower():
+            right_answers_count += 1
+            print("Верно!")
+        else:
+            print("Вы ошиблись.")
+    return right_answers_count
+
+
+def main() -> None:
+    """ Точка входа """
+    hello = input("Привет! Хочешь пройти викторину? Yes/No\n")
+    if hello.lower() != "yes":
+        sys.exit()
+    right_answers = start_quiz()
+    print(f"Ваш результат: {right_answers} из {len(quiz)}")
+
+
+if __name__ == '__main__':
+    main()
