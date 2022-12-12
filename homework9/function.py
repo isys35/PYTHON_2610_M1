@@ -17,5 +17,5 @@ def print_name():
 
 
 if __name__ == '__main__':
-    get(print_name, 4)
+    get(print_name, 4)()
 
