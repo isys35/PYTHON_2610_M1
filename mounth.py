@@ -1,5 +1,5 @@
 def generator_months(end):
-    v = [
+    months = [
         "Январь",
         "Февраль",
         "Март",
@@ -13,14 +13,14 @@ def generator_months(end):
         "Ноябрь",
         "Декабрь"
     ]
-    for i in v[0:end]:
-       yield i
 
-f = generator_months(5)
+    for i in months[0:end]:
+        yield i
 
-a = f.__iter__()
-print(a.__next__())
-print(a.__next__())
-print(a.__next__())
-print(a.__next__())
-print(a.__next__())
+if __name__ == '__main__':
+
+    z = int(input("Введите значение от 1 до 12"  ))
+    f = generator_months(z)
+    for i in f:
+        print(i)
+        
