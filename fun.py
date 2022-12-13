@@ -6,3 +6,6 @@ def filter_odd_numbers(init_list):
     result_list.sort()
     return result_list
 
+init_list = [1, 23, 42, 2, 12]
+print(init_list)
+print(filter_odd_numbers(init_list))
