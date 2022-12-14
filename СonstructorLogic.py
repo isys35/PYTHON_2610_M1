@@ -5,31 +5,20 @@
  Число и текст присваиваются как значения определенным полям. Если переданы два текстовых
 значения, то создается только текстовое поле со значением,
 получающимся объединением значений аргументов. Если аргументами
-переданы два числовых поля, то у объекта будет только поле с целочисленным 
+переданы два числовых поля, то у объекта будет только поле с целочисленным
 значением, равным сумме значений аргументов. В иных случаях поля для объекта
 не создаются. Создать на основе класса объекты и прове-
 рить функциональность кода."""
 
 class ConstructorLogic:
 
-    def __init__(self,val_1,val_2):
-        self.val_1 = val_1
-        self.val_2 = val_2
-        self.val_3 = None
-
-    def set_name(self):
-        if isinstance(self.val_1, str) and isinstance(self.val_2, str):
-            self.val_3 = self.val_1 + self.val_2
-            print(self.val_3)
-        elif isinstance(self.val_1, int) and isinstance(self.val_2, int):
-            self.val_3 = self.val_1 + self.val_2
-            print(self.val_3)
-        else:
-            self.val_1 = None
-            self.val_2 = None
-            print(self.val_1, self.val_2)
-
+        def __init__(self, val_1, val_2):
+            if (isinstance(val_1, str) and isinstance(val_2, str)) or (
+                    isinstance(val_1, int) and isinstance(val_2, int)):
+                self.val = val_1 + val_2
+        def getval(self):
+            print(self.val)
 
 
 r = ConstructorLogic ("Дима","Дима")
-r.set_name()
+r.getval()

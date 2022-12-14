@@ -9,24 +9,17 @@
 class NumberList:
 
     def __init__(self,list):
-        self.list = list
-        self.list2 = []
+        self.list = [item for item in list if isinstance(item, int)]
 
-    def creat_list(self):
-     for i in self.list:
-        if isinstance(i, int):
-            self.list2.append(i)
-                
     def get_list(self):
-        return print(self.list2)
+        print(self.list)
 
-    def med(self):
-        print(sum(self.list2)/len(self.list2))
+    def average(self):
+        print(sum(self.list)/len(self.list))
 
 
 
 d = [9, "опоо", 9, "33", 98]
 r = NumberList(d)
-r.creat_list()
 r.get_list()
-r.med()
+r.average()

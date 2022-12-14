@@ -5,36 +5,22 @@
 объект добавляются только те неслужебные
 поля из исходного объекта, которые имеют целочисленное значение"""
 
-class NumberList:
-
-    def __init__(self, l, w, r):
-        self.l = l
-        self.w = w
-        self.r = r
-        self.list2 = {}
-
-    def export(self):
-        for a,b in self.__dict__.items():
-            if isinstance(b,int):
-                self.list2[a] = b
-
-        print(self.list2)
-        return self.list2
-
-d = NumberList(10,5,6.5)
-v = d.export()
-print(v)
-
-class NumberList2:
-
-    def __init__(self, NumberList, z):
-        self.__dict__ = NumberList
-        self.z = z
-
-    def export(self):
-        r = self.__dict__
-        print(r)
+class OldObj:
+    def __init__(self, **kwargs):
+        for key, value in kwargs.items():
+            self.__dict__[key] = value
 
 
-v = NumberList2(v, 5)
-v.export()
+def new_obj(OldClass):
+    new_dict = dict(filter(lambda item: isinstance(item[1],int), OldClass.__dict__.items()))
+    return OldClass.__class__(**new_dict)
+
+def main():
+    old: OldObj = OldObj(s=2, r="abc", b=2, t="abc", u=2, o="abc")
+    superman : OldObj = new_obj(old)
+    print(old.__dict__)
+    print(superman.__dict__)
+
+if __name__ == '__main__':
+
+    main()
