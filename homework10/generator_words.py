@@ -8,16 +8,13 @@ text = "Отладка кода вдвое сложнее, чем его нап�
 
 
 def gen(text_inner):
-    text_iter = iter(text_inner)
     word = ""
-    for item in text_iter:
-        if item.isalpha():
+    for item in text_inner:
+        if item != ' ' and item != '\n':
             word = word + item
-        elif item == ' ':
+        else:
             yield word
             word = ""
-        else:
-            continue
 
 
 if __name__ == '__main__':
