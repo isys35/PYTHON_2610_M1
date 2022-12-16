@@ -15,7 +15,7 @@ from typing import Union, NoReturn
 class Concatenator:
 
     def __init__(self, arg1: Union[int, str], arg2: Union[int, str]) -> NoReturn:
-        if (type(arg1) == str and type(arg2) == str) or (type(arg1) == int and type(arg2) == int):
+        if isinstance(arg1, str) and isinstance(arg2, str) or (isinstance(arg1, int) and isinstance(arg2, int)):
             self.result = arg1 + arg2
 
     def get_result(self) -> Union[int, str]:

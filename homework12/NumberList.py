@@ -14,8 +14,7 @@ from typing import Any, NoReturn, List
 class NumberList:
 
     def __init__(self, data_list: List[Any]) -> NoReturn:
-        self.number_list = []
-        self.number_list = list(filter(lambda x: type(x) == float or type(x) == int, data_list))
+        self.number_list = [x for x in data_list if isinstance(x, (float, int))]
 
     def get_numbers_list(self) -> List:
         return self.number_list

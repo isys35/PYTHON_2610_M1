@@ -18,7 +18,7 @@ class Instance:
 
 
 def factory(obj: T) -> T:
-    new_dict = dict(filter(lambda item: type(item[1]) == int, obj.__dict__.items()))
+    new_dict = {key: value for key, value in obj.__dict__.items() if isinstance(value, int)}
     return obj.__class__(**new_dict)
 
 
