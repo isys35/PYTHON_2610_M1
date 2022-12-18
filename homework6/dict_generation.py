@@ -1,3 +1,8 @@
+# num = int(input("Введите число: "))
+# list_user = [i for i in range(1, num + 1)]
+# result = dict(zip(list_user, reversed(list_user)))
+# print(result)
+
 """
 Задача 2.
 
@@ -10,9 +15,23 @@
 """
 
 
+def dictionary_generation(number: int) -> dict[int: int]:
+    """
+    Функция генерирует словарь. Ключи словаря - числа от 1 до number; значения - от number до 1.
+
+    :param number: количество элементов словаря
+    :return:
+    """
+    list_user = [i for i in range(1, number + 1)]
+    result = dict(zip(list_user, reversed(list_user)))
+    return result
 
 
-num = int(input("Введите число: "))
-list_user = [i for i in range(1, num + 1)]
-result = dict(zip(list_user, reversed(list_user)))
-print(result)
+def main() -> None:
+    """Точка входа"""
+    num = int(input("Введите число: "))
+    print(dictionary_generation(num))
+
+
+if __name__ == '__main__':
+    main()
