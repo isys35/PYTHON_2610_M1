@@ -1,3 +1,4 @@
+
 """
 Задача 1.
 
@@ -26,6 +27,8 @@ def calculate_kkal(fat, carb):
     :param carb: количесство углеводов в граммах
     :return: вывод расчётов
     """
+    
+def calculate_kkal(fat, carb):
     print(f"Калории от жиров: {fat * 9}")
     print(f"Калории от углеводов: {carb * 4}")
     print(f"Всего калорий в день: {fat * 9 + carb * 4}")
@@ -41,5 +44,7 @@ def main() -> None:
         calculate_kkal(fat, carb)
 
 
+
 if __name__ == '__main__':
     main()
+
