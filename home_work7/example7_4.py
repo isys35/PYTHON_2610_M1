@@ -1,13 +1,28 @@
-compnum = 50
-count = 1
-user_answer = int(input("Введите число:\n"))
-while user_answer != compnum:
-    count += 1
-    if user_answer > compnum:
-        print("Число больше загаданного")
-    else:
-        print("Число меньше загаданного")
-    user_answer = int(input(f"Well done,\nyou took {count} attempts\n"))
-print("Вы угадали")
+import random
+
+'''Написать программу, где нужно угадать число загаданное компьютером.'''
 
 
+def attempts(number):
+    '''Функция принимает одно значение number, которое вводит пользователь.
+    И это число сравнивает со значением компьютера и выводит угадал либо больше загаданного либо меньше.
+    И при этом выводит количество попыток с которой ты угадываешь.'''
+    compnum = random.randint(0, 100)
+    '''создается рандомное число'''
+    count = 0
+    '''Счетчик попыток'''
+
+    while number != compnum:
+        count += 1
+        if number > compnum:
+            print("Число больше загаданного")
+        else:
+            print("Число меньше загаданного")
+        number = int(input(f"Молодец,\nвы предприняли {count} попыток.\n"))
+    '''Цикл создается если введеное число не равно загаданному.'''
+    print(f"Вы угадали на {count + 1} попытки.")
+
+
+if __name__ == '__main__':
+    user_answer = int(input("Введите число:\n"))
+    attempts(user_answer)
