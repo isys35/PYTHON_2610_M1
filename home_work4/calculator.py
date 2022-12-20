@@ -1,4 +1,4 @@
-def calculator(a, b):
+def calculator(a: int, b: int) -> None:
     '''Функция производит расчет калькулятора
     принимает два с плавающей точкой значения a и b'''
     c = a + b
@@ -15,7 +15,11 @@ def calculator(a, b):
     print('результат возведения первого числа в степень второго = ', c)
 
 
-if __name__ == '__main__':
+def main() -> None:
     first = float(input('первое значение = '))
     second = float(input('второе значение = '))
     calculator(first, second)
+
+
+if __name__ == '__main__':
+    main()

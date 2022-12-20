@@ -10,7 +10,7 @@
 а у элемента с ключом 3 значение 1.'''
 
 
-def lst(number):
+def lst(number: int) -> None:
     '''Создается функция, принимает один параметр number, но ничего не возвращает'''
     user_list = list(range(1, number + 1))
     '''Создается список от 1 до числа который вводит пользователь'''
@@ -23,6 +23,10 @@ def lst(number):
     print(user_dict)
 
 
-if __name__ == '__main__':
+def main() -> None:
     user_number = int(input("Введите целое неотрицательное число:\n"))
     lst(user_number)
+
+
+if __name__ == '__main__':
+    main()

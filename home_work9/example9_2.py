@@ -4,7 +4,7 @@ def double(function):
     return inner
 
 
-def multiply_by_two(x):
+def multiply_by_two(x: int) -> int:
     return x * 2
 
 

@@ -1,13 +1,20 @@
-
+'''Напишите программу с функцией, аргументом которой передается
+числовой список, а результатом является еще один список, в который
+включены только нечетные числа из списка-аргумента.'''
 from random import randint
 from typing import List
 
+'''Создается фукция где пользователь вводит размер списка, а список наполняется randomom.'''
+
 
 def generate_list(size: int) -> List[int]:
-    list = []
+    lst = []
     for i in range(size):
-        list.append(randint(1, 100))
-    return list
+        lst.append(randint(-100, 100))
+    return lst
+
+
+'''Создается функция которая уже сортирует созданный список на нечетные числа'''
 
 
 def odd_num(unsorted: list) -> List[int]:
@@ -15,7 +22,8 @@ def odd_num(unsorted: list) -> List[int]:
 
 
 if __name__ == '__main__':
-    list = generate_list(10)
-    t = odd_num(list)
-    print(list)
-    print(t)
+    numbers = int(input('Количесво значений в списке:\n'))
+    user_lst = generate_list(numbers)
+    unsorted_lst = odd_num(user_lst)
+    print(user_lst)
+    print(unsorted_lst)
