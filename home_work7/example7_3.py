@@ -1,8 +1,26 @@
-user_number = int(input("Сколько людей вы хотите пригласить на вечеринку:\n "))
-if user_number < 10:
+'''Спросите у пользователя, скольких людей он хочет пригласить на вечеринку.
+Если будет введено число меньше 10,
+запросите имена и после каждого имени выведите строку «[имя] has been invited».
+Если введенное число больше или равно 10, выведите сообщение «Too many people».'''
+
+
+def party(number: int, name: str) -> None:
+    '''Функция принимает два значения number и name. Количество людей и их имена.
+    Если людей больше 10, то скажет, что много людей.
+    После того как пользователь вводит количесво людей, потом он вводит имена людей, чтобы те получили приглашения.'''
+    if number < 10:
+        user_list = name.split(", ")
+        for i in user_list:
+            print(f"{i.title()}, has been invited.")
+    else:
+        print("Too many people.")
+
+
+def main() -> None:
+    user_number = int(input("Сколько людей вы хотите пригласить на вечеринку:\n"))
     user_str = input("Введите имена людей, через запятую, которых хотите пригласить:\n")
-    user_list = user_str.split(", ")
-    for i in user_list:
-        print(f"{i} has been invited")
-else:
-    print("Too many people")
+    party(user_number, user_str)
+
+
+if __name__ == '__main__':
+    main()
