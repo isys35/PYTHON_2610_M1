@@ -15,6 +15,7 @@ def gen(text_inner):
         else:
             yield word
             word = ""
+    yield word
 
 
 if __name__ == '__main__':
