@@ -14,10 +14,13 @@ class Person:
         self.__company = company
 
     def set_age(self, age: int) -> None:
-        if 1 <= age <= 120:
-            self.__age = age
-        else:
-            print('Ne verno')
+        try:
+            if 1 <= age <= 120:
+                self.__age = age
+            else:
+                raise ValueError
+        except ValueError:
+            print("Неверный возраст.")
 
     def get_age(self):
         return self.__age
@@ -36,6 +39,7 @@ def main() -> None:
     tom = Person('Tom', 'Microsoft', 30)
     tom.display_info()
     bob = Person('Bob', 'Apple')
+    bob.set_age(int(input('Введите ваш возраст:\n')))
     bob.display_info()
 
 

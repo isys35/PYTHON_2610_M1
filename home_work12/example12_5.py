@@ -23,9 +23,9 @@ def factory(obj: New) -> New:
 
 
 def main() -> None:
-    box: Instance = Instance(size=5, color="box")
+    box: Instance = Instance(size=5)
     new_box: Instance = factory(box)
-    phone: Instance = Instance(diagonal=6, color="green", price=1000)
+    phone: Instance = Instance(diagonal=6, price=1000)
     new_phone: Instance = factory(phone)
     print(new_box.__dict__)
     print(new_phone.__dict__)
