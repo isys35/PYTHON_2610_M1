@@ -1,0 +1,538 @@
+IT-PROFY_Python_26.10.2022
+Дроздов Дмитрий
+Лента
+Задания
+Пользователи
+Все темы
+Git
+Операторы Python
+Виртуальное окружение
+Задание
+Расширить функциональность бота сделанного на занятии.
+Без срока сдачи
+Задание
+Написать тесты для любой самостоятельной работы, выполненной раннее
+Срок сдачи: 25 янв., 15:00
+Задание
+Переписать парсер, используя любой метод конкурентной работы
+Срок сдачи: 18 янв., 15:00
+Задание
+SQL-запросы
+Срок сдачи: 11 янв., 15:00
+Задание
+SQL запросы
+Срок сдачи: 6 янв., 15:00
+Задание
+Спарсить 10 страниц
+Срок сдачи: 4 янв., 15:00
+Задание
+Собрать данные из файла и сохранить в excel
+Срок сдачи: 28 дек. 2022 г., 15:00
+Опубликовано 23 дек. 2022 г.
+Пропущен срок сдачи
+Написать скрипт, который из файла rss.txt достает информацию из тега <author></author> c помощью регулярных выражений, и  полученную информацию сохраняет в excel файл
+
+rss.txt
+Текст
+Задание
+Абстрактный класс
+Срок сдачи: 14 дек. 2022 г., 15:00
+Задание
+ООП
+Срок сдачи: 9 дек. 2022 г., 15:00
+Задание
+ООП
+Срок сдачи: 7 дек. 2022 г., 15:00
+Git
+Git
+Выполнено Задание
+Работа с GitHub
+Без срока сдачи
+Выполнено Задание
+Создание репозитория
+Срок сдачи: 5 нояб. 2022 г., 15:00
+Операторы Python
+Операторы Python
+Выполнено Задание
+Создать скрипт
+Срок сдачи: 2 нояб. 2022 г., 15:00
+Виртуальное окружение
+Виртуальное окружение
+Выполнено Задание
+Работа с виртуальным окружением venv
+Срок сдачи: 28 окт. 2022 г., 15:00
+  <channel>
+    <title>devby.io: Все о работе в IT</title>
+    <description>devby.io: Все о работе в IT</description>
+    <link>https://devby.io/rss</link>
+    <atom:link href="https://devby.io/rss" rel="self"/>
+    <pubDate>Fri, 23 Dec 2022 20:31:19 GMT</pubDate>
+    <generator>Dev.by RSS Generator</generator>
+    <item>
+      <title>Никак не угомонится: подросток-авиасталкер продолжает постить перемещения Маска — но с отставанием на день</title>
+      <id>tag:dev.by,2022-12-23:74042984</id>
+      <pubDate>Fri, 23 Dec 2022 15:08:00 GMT</pubDate>
+      <lastBuildUpdate>Fri, 23 Dec 2022 19:34:50 GMT</lastBuildUpdate>
+      <category/>
+      <tags>илон маск, соцсети, приватность, twitter</tags>
+      <format>news</format>
+      <description>
+20-летний студент Джек Суини, который вёл несколько Twitter-аккаунтов, отслеживающих перелёты знаменитостей, и получил за это бан в соцсети, завёл новый такой аккаунт для Илон Маска.
+</description>
+      <author>Александра Кукуть</author>
+      <link>https://devby.io/news/podrostok-aviastalker-prodolzhaet-postit-peremescheniya-maska</link>
+      <guid>https://devby.io/news/podrostok-aviastalker-prodolzhaet-postit-peremescheniya-maska</guid>
+      <enclosure url="https://devby.io/storage/images/27/90/97/26/derived/858ccad4106d27fa9b3e06ddcd90887c.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Крупнейший банк Грузии начал массово блокировать счета экспатам</title>
+      <id>tag:dev.by,2022-12-23:10135854</id>
+      <pubDate>Fri, 23 Dec 2022 13:15:00 GMT</pubDate>
+      <lastBuildUpdate>Fri, 23 Dec 2022 14:32:39 GMT</lastBuildUpdate>
+      <category/>
+      <tags>bank of georgia, блокировка счета, грузия, экспат</tags>
+      <format>news</format>
+      <description>
+В чатах появилась информация о блокировках счетов в Bank of Georgia. Банк просит клиентов забрать все свои деньги в течение 5 рабочих дней, пишет канал «Ты тоже в Грузии?»
+Известно о многочисленных случаях блокировок счётов BoG граждан РФ.  Администраторам чата ИП/Бизнес Грузия также известно о двух случаях блокировки клиентов из Беларуси и об одном — клиента из Грузии.
+</description>
+      <author>Андрей  Кожемякин</author>
+      <link>https://devby.io/news/bank-of-georgia-blokiruet-scheta</link>
+      <guid>https://devby.io/news/bank-of-georgia-blokiruet-scheta</guid>
+      <enclosure url="https://devby.io/storage/images/10/41/25/82/derived/8f51d0d5e093ac6d40eedc4cf8b8a8cf.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>В Twitter появится счетчик просмотров постов</title>
+      <id>tag:dev.by,2022-12-23:57113128</id>
+      <pubDate>Fri, 23 Dec 2022 13:08:00 GMT</pubDate>
+      <lastBuildUpdate>Fri, 23 Dec 2022 14:20:28 GMT</lastBuildUpdate>
+      <category/>
+      <tags>twitter, соцсеть, статистика</tags>
+      <format>news</format>
+      <description>
+В соцсети появился счетчик просмотров, чтобы определить активность пользователей Twitter.
+</description>
+      <author>Николай Чикишев</author>
+      <link>https://devby.io/news/v-twitter-poyavitsya-schetchik-prosmotrov-postov</link>
+      <guid>https://devby.io/news/v-twitter-poyavitsya-schetchik-prosmotrov-postov</guid>
+      <enclosure url="https://devby.io/storage/images/33/82/53/71/derived/a1fd787b70597245c550845653bb14e1.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Meta согласилась выплатить рекордную сумму из-за утечки данных в Cambridge Analytica </title>
+      <id>tag:dev.by,2022-12-23:21236752</id>
+      <pubDate>Fri, 23 Dec 2022 12:43:00 GMT</pubDate>
+      <lastBuildUpdate>Fri, 23 Dec 2022 14:15:13 GMT</lastBuildUpdate>
+      <category/>
+      <tags>cambridge analytica, meta, конфиденциальность, утечка</tags>
+      <format>news</format>
+      <description>
+Компания согласилась выплатить компенсацию в рамках мирового соглашения по коллективному иску пользователей Facebook о передаче данных фирме Cambridge Analytica.
+</description>
+      <author>Николай Чикишев</author>
+      <link>https://devby.io/news/meta-soglasilas-vyplatit-rekordnuu-summu-iz-za-utechki-dannyh-v-cambridge-analytica</link>
+      <guid>https://devby.io/news/meta-soglasilas-vyplatit-rekordnuu-summu-iz-za-utechki-dannyh-v-cambridge-analytica</guid>
+      <enclosure url="https://devby.io/storage/images/19/60/92/68/derived/6a81fef16a6499d904ce80ee76f80d34.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Хакеры украли пользовательские данные менеджера паролей LastPass</title>
+      <id>tag:dev.by,2022-12-23:34020271</id>
+      <pubDate>Fri, 23 Dec 2022 12:15:00 GMT</pubDate>
+      <lastBuildUpdate>Fri, 23 Dec 2022 12:46:53 GMT</lastBuildUpdate>
+      <category/>
+      <tags>хакеры, взлом, пользовательские данные</tags>
+      <format>news</format>
+      <description>
+Менеджер паролей компания LastPass признала, что хакеры украли зашифрованные копии пользовательских паролей и дургие данные, включая платежные адреса, телефонные номера и IP-адреса пользователей.
+</description>
+      <author>Николай Чикишев</author>
+      <link>https://devby.io/news/hakery-ukrali-polzovatelskie-dannye-menedzhera-parolei-lastpass</link>
+      <guid>https://devby.io/news/hakery-ukrali-polzovatelskie-dannye-menedzhera-parolei-lastpass</guid>
+      <enclosure url="https://devby.io/storage/images/35/21/40/87/derived/6209145105112726cb07c0e96d5d43e3.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Британский банк крупно оштрафовали за неудачный переход на новую ИТ-систему</title>
+      <id>tag:dev.by,2022-12-23:13997818</id>
+      <pubDate>Fri, 23 Dec 2022 12:00:00 GMT</pubDate>
+      <lastBuildUpdate>Fri, 23 Dec 2022 12:35:37 GMT</lastBuildUpdate>
+      <category/>
+      <tags>банки, сбои</tags>
+      <format>news</format>
+      <description>
+Британские регуляторы наказали TSB — коммерческий банк со штаб-квартирой в шотландском Эдинбурге — на £49 млн за провальную миграцию на новую банковскую платформу, в результате чего была серьёзно нарушена его работа, а пользователи неделями не могли получить доступ к своим личным кабинетам.
+</description>
+      <author>Александра Кукуть</author>
+      <link>https://devby.io/news/britanskii-bank-krupno-oshtrafovali-za-neudachnyi-perehod-na-novuu-it-sistemu</link>
+      <guid>https://devby.io/news/britanskii-bank-krupno-oshtrafovali-za-neudachnyi-perehod-na-novuu-it-sistemu</guid>
+      <enclosure url="https://devby.io/storage/images/75/06/56/58/derived/522cec95c12e60fb8c634d9f0d85a0ea.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Какие ИТ-компании покинули офисы в Минске, а какие — наоборот, заняли </title>
+      <id>tag:dev.by,2022-12-23:10544460</id>
+      <pubDate>Fri, 23 Dec 2022 10:32:00 GMT</pubDate>
+      <lastBuildUpdate>Fri, 23 Dec 2022 13:39:33 GMT</lastBuildUpdate>
+      <category/>
+      <tags>epam, mic, wargaming, беларусь, колиерс, офисная недвижимость, офисы</tags>
+      <format>news</format>
+      <description>
+Консалтинговая компания «Коллиерз Интернешнл Консалтинг» посчитала, сколько офисных площадей освободили за два года крупнейшие арендаторы из ИТ-сектора в Минске. Вышло около 35% от всех занимаемых айтишниками офисов. Из них большую часть освободили две компании — EPAM и Wargaming.
+</description>
+      <author>Андрей  Кожемякин</author>
+      <link>https://devby.io/news/rynok-ofisov-poteri-za-dva-goda</link>
+      <guid>https://devby.io/news/rynok-ofisov-poteri-za-dva-goda</guid>
+      <enclosure url="https://devby.io/storage/images/51/30/97/97/derived/5fd0509ee9851dd06318ce253f0bdb2d.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>От увольнений в технокомпаниях выигрывают остальные отрасли</title>
+      <id>tag:dev.by,2022-12-23:35392173</id>
+      <pubDate>Fri, 23 Dec 2022 10:23:00 GMT</pubDate>
+      <lastBuildUpdate>Fri, 23 Dec 2022 12:17:03 GMT</lastBuildUpdate>
+      <category/>
+      <tags>увольнения, сокращения, работа в ит, ит-компании, айтишники, ит-специалисты</tags>
+      <format>news</format>
+      <description>
+Счёт сотрудникам, которых технологические компании сократили за последние месяцы, идёт на десятки тысяч. Но как пишет Insider, высокооплачиваемые айтишные вакансии в огромных количествах есть в других отраслях: по словам рекрутеров и экспертов, с которыми беседовало издание, особенно востребованы ИТ-кадры в сфере страхования, здравоохранения, финансов, в розничной торговле и госорганах.
+</description>
+      <author>Александра Кукуть</author>
+      <link>https://devby.io/news/ot-uvolnenii-v-tehnokompaniyah-vyigryvaut-ostalnye-otrasli</link>
+      <guid>https://devby.io/news/ot-uvolnenii-v-tehnokompaniyah-vyigryvaut-ostalnye-otrasli</guid>
+      <enclosure url="https://devby.io/storage/images/54/04/85/10/derived/67e7804ad66282cc34b44eead8c98407.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>«Мы не отступим. Нас не запугать»: создатели нейросети для генерации порно прокомментировали блокировку на Kickstarter</title>
+      <id>tag:dev.by,2022-12-23:38868315</id>
+      <pubDate>Fri, 23 Dec 2022 09:26:00 GMT</pubDate>
+      <lastBuildUpdate>Fri, 23 Dec 2022 09:51:51 GMT</lastBuildUpdate>
+      <category/>
+      <tags>нейросеть, порно</tags>
+      <format>news</format>
+      <description>
+Ранее платформа Kickstarter запретила сбор средств на нейросеть Unstable Diffusion, которая позволяет создавать откровенные изображения, в том числе порно.
+</description>
+      <author>Николай Чикишев</author>
+      <link>https://devby.io/news/my-ne-otstupim-nas-ne-zapugat-sozdateli-neiroseti-dlya-generatsii-porno-prokommentirovali-blokirovku-na-kickstarter</link>
+      <guid>https://devby.io/news/my-ne-otstupim-nas-ne-zapugat-sozdateli-neiroseti-dlya-generatsii-porno-prokommentirovali-blokirovku-na-kickstarter</guid>
+      <enclosure url="https://devby.io/storage/images/24/13/52/18/derived/a38e07b34d63a1770d0b1a90451cb7de.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Суперкомбо: Tesla на автопилоте собрала 8 машин в 1 аварии</title>
+      <id>tag:dev.by,2022-12-23:23959573</id>
+      <pubDate>Fri, 23 Dec 2022 08:55:00 GMT</pubDate>
+      <lastBuildUpdate>Fri, 23 Dec 2022 09:57:18 GMT</lastBuildUpdate>
+      <category/>
+      <tags>tesla, авария, дтп, автопилот, сша</tags>
+      <format>news</format>
+      <description>
+Tesla Model S 2021 года выпуска стала виновницей ДТП с участием восьми транспортных средств, узнал Reuters. Авария произошла в День благодарения в конце ноября в Сан-Франциско. По словам водителя, в это время в машине была включена продвинутая функция беспилотного управления Full-Self Driving.
+</description>
+      <author>Александра Кукуть</author>
+      <link>https://devby.io/news/superkombo-tesla-na-avtopilote-sobrala-8-mashin-v-1-avarii</link>
+      <guid>https://devby.io/news/superkombo-tesla-na-avtopilote-sobrala-8-mashin-v-1-avarii</guid>
+      <enclosure url="https://devby.io/storage/images/48/28/64/17/derived/8134c67f3507a578849825ce45d7f0c0.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>TikTok уже несколько лет пытается убедить власти США оставить ее в собственности ByteDance</title>
+      <id>tag:dev.by,2022-12-23:46712952</id>
+      <pubDate>Fri, 23 Dec 2022 08:49:00 GMT</pubDate>
+      <lastBuildUpdate>Fri, 23 Dec 2022 09:27:25 GMT</lastBuildUpdate>
+      <category/>
+      <tags>tiktok, bytedance, защита данных, сша</tags>
+      <format>news</format>
+      <description>
+Соцсеть пытается убедить американское правительство разрешить ему остаться в собственной китайской компании ByteDance.
+</description>
+      <author>Николай Чикишев</author>
+      <link>https://devby.io/news/tiktok-uzhe-neskolko-let-pytaetsya-ubedit-vlasti-ssha-ostavit-ee-v-sobstvennosti-bytedance</link>
+      <guid>https://devby.io/news/tiktok-uzhe-neskolko-let-pytaetsya-ubedit-vlasti-ssha-ostavit-ee-v-sobstvennosti-bytedance</guid>
+      <enclosure url="https://devby.io/storage/images/10/75/02/52/derived/5d61478d9fe9d8be691f44a5291150d4.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Основателя криптобиржи FTX выпустили под залог в $250 млн</title>
+      <id>tag:dev.by,2022-12-23:26749300</id>
+      <pubDate>Fri, 23 Dec 2022 08:19:00 GMT</pubDate>
+      <lastBuildUpdate>Fri, 23 Dec 2022 09:14:07 GMT</lastBuildUpdate>
+      <category/>
+      <tags>ftx, криптобиржа, залог, бэнкман-фрид</tags>
+      <format>news</format>
+      <description>
+В США бизнесмена подозревают в мошенничестве и отмывании денег, ему грозит до 115 лет тюрьмы.
+</description>
+      <author>Николай Чикишев</author>
+      <link>https://devby.io/news/osnovatelya-kriptobirzhi-ftx-vypustili-pod-zalog-v-250-mln</link>
+      <guid>https://devby.io/news/osnovatelya-kriptobirzhi-ftx-vypustili-pod-zalog-v-250-mln</guid>
+      <enclosure url="https://devby.io/storage/images/70/75/33/96/derived/bd0d3d619526c0f3f5c5cee3da6357d2.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>«Орём на Минском море». Айтишники о том, что помогало вывозить 2022</title>
+      <id>tag:dev.by,2022-12-23:32644372</id>
+      <pubDate>Fri, 23 Dec 2022 07:30:00 GMT</pubDate>
+      <lastBuildUpdate>Fri, 23 Dec 2022 11:31:23 GMT</lastBuildUpdate>
+      <category/>
+      <tags>mic, психолог, хорошее настроение</tags>
+      <format>long</format>
+      <description>
+Спросили у читателей, что помогло им пережить уходящий год. Кому-то — прогулки и спорт, кому-то — терапия, а кому-то нужно было раз в месяц проораться на берегу Минского моря.
+Берите советы на вооружение и добавляйте свои в комментариях.
+</description>
+      <author>Татьяна  Карюхина</author>
+      <link>https://devby.io/news/vyvozit-2022</link>
+      <guid>https://devby.io/news/vyvozit-2022</guid>
+      <enclosure url="https://devby.io/storage/images/12/74/50/09/derived/0a12c16e4a198df1314b8753c18330f7.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Тест: как понять, что пора менять работу [Bubble]</title>
+      <id>tag:dev.by,2022-12-23:16984391</id>
+      <pubDate>Fri, 23 Dec 2022 07:30:00 GMT</pubDate>
+      <lastBuildUpdate>Thu, 22 Dec 2022 19:48:28 GMT</lastBuildUpdate>
+      <category>Bubble</category>
+      <tags>bubble, работа, тест</tags>
+      <format>news</format>
+      <author>Отдел новостей</author>
+      <link>https://devby.io/news/test-kak-ponyat-chto-pora-menyat-rabotu-bubble-1671738373</link>
+      <guid>https://devby.io/news/test-kak-ponyat-chto-pora-menyat-rabotu-bubble-1671738373</guid>
+      <enclosure url="https://devby.io/storage/images/11/36/73/73/derived/41c1def6478bf6cfc87d534c4f879ec9.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>У «Яндекса» нашли новый международный бизнес с десятком стартапов</title>
+      <id>tag:dev.by,2022-12-23:12781575</id>
+      <pubDate>Fri, 23 Dec 2022 07:20:00 GMT</pubDate>
+      <lastBuildUpdate>Fri, 23 Dec 2022 09:04:38 GMT</lastBuildUpdate>
+      <category/>
+      <tags>россия, яндекс, стартапы</tags>
+      <format>news</format>
+      <description>
+«Яндекс» начал за рубежом бизнес под новыми брендами, выяснил RTVI. Новые компании зарегистрированы в Армении и США.
+</description>
+      <author>Александра Кукуть</author>
+      <link>https://devby.io/news/u-yandeksa-nashli-novyi-mezhdunarodnyi-biznes-s-desyatkom-startapov</link>
+      <guid>https://devby.io/news/u-yandeksa-nashli-novyi-mezhdunarodnyi-biznes-s-desyatkom-startapov</guid>
+      <enclosure url="https://devby.io/storage/images/12/18/82/49/derived/918ecbeced0611f617cf1809f88d1d44.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Основы ИИ, SMM и Linux: курсы со скидкой, которые можно подарить на Новый год</title>
+      <id>tag:dev.by,2022-12-22:14261666</id>
+      <pubDate>Thu, 22 Dec 2022 14:13:00 GMT</pubDate>
+      <lastBuildUpdate>Thu, 22 Dec 2022 14:30:03 GMT</lastBuildUpdate>
+      <category/>
+      <tags>courses.thedev.io, udemy, курсы</tags>
+      <format>news</format>
+      <description>Перед новогодними праздниками не до учебы — в голове мысли только о том, что подарить близким. Хочется, чтобы подарок не только нравился, но и приносил пользу. Флеш-распродажа от Udemy поможет вам сэкономить деньги и время, а также подарить шанс на новый старт в 2023 году.</description>
+      <author>Отдел новостей</author>
+      <link>https://devby.io/news/osnovy-ii-smm-i-linux-na-udemy</link>
+      <guid>https://devby.io/news/osnovy-ii-smm-i-linux-na-udemy</guid>
+      <enclosure url="https://devby.io/storage/images/50/08/31/98/derived/27f0d56d614d39af06ac38b8129dddee.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>В Google «бьют тревогу» из-за нового чат-бота ChatGPT</title>
+      <id>tag:dev.by,2022-12-22:49783384</id>
+      <pubDate>Thu, 22 Dec 2022 13:28:00 GMT</pubDate>
+      <lastBuildUpdate>Thu, 22 Dec 2022 14:24:30 GMT</lastBuildUpdate>
+      <category/>
+      <tags>искусственный интеллект, нейросети, google, openai, chatgpt</tags>
+      <format>news</format>
+      <description>
+По информации New York Times, руководство Google обеспокоено растущей популярностью нейросети ChatGPT от исследовательской компании OpenAI — и будущим своего поискового движка, которому она угрожает.
+</description>
+      <author>Александра Кукуть</author>
+      <link>https://devby.io/news/v-google-but-trevogu-iz-za-novogo-chat-bota-chatgpt</link>
+      <guid>https://devby.io/news/v-google-but-trevogu-iz-za-novogo-chat-bota-chatgpt</guid>
+      <enclosure url="https://devby.io/storage/images/25/53/48/61/derived/aaf3658d69f2e34dd3d457c3f32b025a.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Два партнера Бэнкмана-Фрида признали вину в обмане клиентов FTX</title>
+      <id>tag:dev.by,2022-12-22:34308180</id>
+      <pubDate>Thu, 22 Dec 2022 12:56:00 GMT</pubDate>
+      <lastBuildUpdate>Thu, 22 Dec 2022 14:01:48 GMT</lastBuildUpdate>
+      <category/>
+      <tags>ftx, бэнкман-фрид, криптобиржа, мошенничество</tags>
+      <format>news</format>
+      <description>
+Бывший генеральный директор Alameda Research Кэролайн Эллисон и соучредитель FTX Гэри Ван признали себя виновными в обмане инвесторов.
+</description>
+      <author>Николай Чикишев</author>
+      <link>https://devby.io/news/dva-partnera-benkmana-frida-priznali-vinu-v-obmane-klientov-ftx</link>
+      <guid>https://devby.io/news/dva-partnera-benkmana-frida-priznali-vinu-v-obmane-klientov-ftx</guid>
+      <enclosure url="https://devby.io/storage/images/18/88/62/83/derived/8f10de8c3fb583ce1f000ef453123095.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>«Это отвратительно»: cоискатели рассказали, как их игнорируют работодатели [Bubble]</title>
+      <id>tag:dev.by,2022-12-22:71336461</id>
+      <pubDate>Thu, 22 Dec 2022 12:42:00 GMT</pubDate>
+      <lastBuildUpdate>Thu, 22 Dec 2022 20:18:07 GMT</lastBuildUpdate>
+      <category>Bubble</category>
+      <tags>bubble, hr, соискатель</tags>
+      <format>news</format>
+      <author>Отдел новостей</author>
+      <link>https://devby.io/news/eto-otvratitelno-coiskateli-rasskazali-kak-ih-ignoriruut-rabotodateli-1671712825</link>
+      <guid>https://devby.io/news/eto-otvratitelno-coiskateli-rasskazali-kak-ih-ignoriruut-rabotodateli-1671712825</guid>
+      <enclosure url="https://devby.io/storage/images/10/18/71/21/derived/9e76feb1bc35bbf5071e04b94bfd1068.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Уход Nokia и Ericsson из России приведет к проблемам со связью и скоростью интернета</title>
+      <id>tag:dev.by,2022-12-22:20873913</id>
+      <pubDate>Thu, 22 Dec 2022 12:33:00 GMT</pubDate>
+      <lastBuildUpdate>Thu, 22 Dec 2022 13:53:28 GMT</lastBuildUpdate>
+      <category/>
+      <tags>ericsson, nokia, санкции, телеком</tags>
+      <format>news</format>
+      <description>
+Пользователи в России вскоре могут столкнуться с падением скорости мобильного интернета, проблемами с соединением во время вызовов.
+</description>
+      <author>Николай Чикишев</author>
+      <link>https://devby.io/news/uhod-nokia-i-ericsson-iz-rossii-privedet-k-problemam-so-svyazu-i-skorostu-interneta</link>
+      <guid>https://devby.io/news/uhod-nokia-i-ericsson-iz-rossii-privedet-k-problemam-so-svyazu-i-skorostu-interneta</guid>
+      <enclosure url="https://devby.io/storage/images/41/80/65/77/derived/94056e07550e93064efa00a08e64f260.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>«Яндекс.Еда» признали потерпевшей по делу об утечке данных клиентов</title>
+      <id>tag:dev.by,2022-12-22:24410443</id>
+      <pubDate>Thu, 22 Dec 2022 12:04:00 GMT</pubDate>
+      <lastBuildUpdate>Thu, 22 Dec 2022 12:59:06 GMT</lastBuildUpdate>
+      <category/>
+      <tags>утечка данных, яндекс, яндекс.еда</tags>
+      <format>news</format>
+      <description>
+Сервис признан потерпевшей стороной по делу об утечке личных данных клиентов, которая случилась в феврале этого года.
+</description>
+      <author>Николай Чикишев</author>
+      <link>https://devby.io/news/yandekseda-priznali-poterpevshei-po-delu-ob-utechke-dannyh-klientov</link>
+      <guid>https://devby.io/news/yandekseda-priznali-poterpevshei-po-delu-ob-utechke-dannyh-klientov</guid>
+      <enclosure url="https://devby.io/storage/images/38/93/02/79/derived/f29e778b4d5092aa60d634ad5e675b88.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Playtika будет вести занятия по видеоиграм для израильских студентов</title>
+      <id>tag:dev.by,2022-12-22:22458875</id>
+      <pubDate>Thu, 22 Dec 2022 11:41:00 GMT</pubDate>
+      <lastBuildUpdate>Thu, 22 Dec 2022 12:47:06 GMT</lastBuildUpdate>
+      <category/>
+      <tags>playtika, израиль, геймдев, игры</tags>
+      <format>news</format>
+      <description>
+Playtika объявила о партнёрстве с двумя учебными заведениями Израиля: университетом имени Райхмана и академическим колледжем Тель-Авива-Яффы.
+</description>
+      <author>Александра Кукуть</author>
+      <link>https://devby.io/news/playtika-budet-vesti-zanyatiya-po-videoigram-dlya-izrailskih-studentov</link>
+      <guid>https://devby.io/news/playtika-budet-vesti-zanyatiya-po-videoigram-dlya-izrailskih-studentov</guid>
+      <enclosure url="https://devby.io/storage/images/17/06/58/18/derived/1048cad521fef190549b9887e34cccfa.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Россия будет брать 10% «добровольного взноса» в бюджет при продаже активов иностранцами</title>
+      <id>tag:dev.by,2022-12-22:47386074</id>
+      <pubDate>Thu, 22 Dec 2022 11:06:00 GMT</pubDate>
+      <lastBuildUpdate>Thu, 22 Dec 2022 12:41:37 GMT</lastBuildUpdate>
+      <category/>
+      <tags>россия, бизнес, сделки</tags>
+      <format>news</format>
+      <description>
+Подкомиссия российского Минфина по выдаче разрешений на продажу активов зарубежными компаниями из «недружественных стран» приняла четыре критерия, которыми теперь будет руководствоваться при одобрении сделок.
+Один из них — уплата «добровольного взноса» в федеральный бюджет не менее 10% операции. Альтернатива — согласие на рассрочку платежа для покупателя на 1-2 года. Об этом РБК рассказали четыре источника, информацию подтвердила пресс-служба ведомства.
+</description>
+      <author>Александра Кукуть</author>
+      <link>https://devby.io/news/rossiya-budet-brat-10-dobrovolnogo-vznosa-pri-prodazhe-aktivov-inostrantsami</link>
+      <guid>https://devby.io/news/rossiya-budet-brat-10-dobrovolnogo-vznosa-pri-prodazhe-aktivov-inostrantsami</guid>
+      <enclosure url="https://devby.io/storage/images/99/02/37/51/derived/444b6ed150ac73da771e656dc5d709b5.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Покупайте: британский регулятор опросил пользователей о сделке Microsoft и Activision Blizzard</title>
+      <id>tag:dev.by,2022-12-22:47127979</id>
+      <pubDate>Thu, 22 Dec 2022 10:41:00 GMT</pubDate>
+      <lastBuildUpdate>Thu, 22 Dec 2022 12:33:20 GMT</lastBuildUpdate>
+      <category/>
+      <tags>microsoft, xbox, activision blizzard, великобритания, sony, nintendo</tags>
+      <format>news</format>
+      <description>
+Ранее британский антимонопольный регулятор предложил пользователям выразить свое мнение о сделке Microsoft и Activision Blizzard.
+</description>
+      <author>Николай Чикишев</author>
+      <link>https://devby.io/news/pokupaite-britanskii-regulyator-oprosil-polzovatelei-o-sdelke-microsoft-i-activision-blizzard</link>
+      <guid>https://devby.io/news/pokupaite-britanskii-regulyator-oprosil-polzovatelei-o-sdelke-microsoft-i-activision-blizzard</guid>
+      <enclosure url="https://devby.io/storage/images/42/11/58/17/derived/914ab8c4b6369b981e08573144d911cb.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>«Рынок работодателя. Нужно терпеть». Нормально ли, когда HR игнорируют кандидатов?</title>
+      <id>tag:dev.by,2022-12-22:24791801</id>
+      <pubDate>Thu, 22 Dec 2022 10:29:00 GMT</pubDate>
+      <lastBuildUpdate>Thu, 22 Dec 2022 10:29:56 GMT</lastBuildUpdate>
+      <category/>
+      <tags>hr, блоги, кандидат</tags>
+      <format>long</format>
+      <author>Валерия Филистович</author>
+      <link>https://devby.io/news/rynok-rabotodatelya-nuzhno-terpet-normalno-li-kogda-hr-ignoriruut-kandidatov-1671704876</link>
+      <guid>https://devby.io/news/rynok-rabotodatelya-nuzhno-terpet-normalno-li-kogda-hr-ignoriruut-kandidatov-1671704876</guid>
+      <enclosure url="https://devby.io/storage/images/40/58/61/81/derived/f2677c03592143a59e6289cbf7798963.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Netflix выпустит серию видеотренировок на платформе</title>
+      <id>tag:dev.by,2022-12-22:11913156</id>
+      <pubDate>Thu, 22 Dec 2022 10:23:00 GMT</pubDate>
+      <lastBuildUpdate>Thu, 22 Dec 2022 10:34:12 GMT</lastBuildUpdate>
+      <category/>
+      <tags>netflix, стриминг, тренировки, спорт</tags>
+      <format>news</format>
+      <description>
+Стриминговый сервис экспериментирует: на платформе появятся видеотренировки от команды приложения Nike Training Club.
+</description>
+      <author>Николай Чикишев</author>
+      <link>https://devby.io/news/netflix-vypustit-seriu-videotrenirovok-na-platforme</link>
+      <guid>https://devby.io/news/netflix-vypustit-seriu-videotrenirovok-na-platforme</guid>
+      <enclosure url="https://devby.io/storage/images/44/05/99/22/derived/047d34392e98f5dd8befb030b8151e19.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Основателя FTX Бэнкмана-Фрида экстрадируют в США</title>
+      <id>tag:dev.by,2022-12-22:86143422</id>
+      <pubDate>Thu, 22 Dec 2022 09:48:00 GMT</pubDate>
+      <lastBuildUpdate>Thu, 22 Dec 2022 10:27:30 GMT</lastBuildUpdate>
+      <category/>
+      <tags>ftx, бэнкман-фрид, криптобиржа, мошенничество, банкротство</tags>
+      <format>news</format>
+      <description>
+Основатель и бывший генеральный директор FTX Сэм Бэнкман-Фрид согласился на экстрадицию в США. Суд на Багамах одобрил его перевод из местной тюрьмы в другую страну.
+</description>
+      <author>Николай Чикишев</author>
+      <link>https://devby.io/news/osnovatelya-ftx-benkmana-frida-ekstradiruut-v-ssha</link>
+      <guid>https://devby.io/news/osnovatelya-ftx-benkmana-frida-ekstradiruut-v-ssha</guid>
+      <enclosure url="https://devby.io/storage/images/43/25/11/63/derived/996dfbd027e8645ca365ed1d91e52a01.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>В OpenAI создали нейросеть, которая генерирует 3D-объекты по тексту</title>
+      <id>tag:dev.by,2022-12-22:10473141</id>
+      <pubDate>Thu, 22 Dec 2022 09:44:00 GMT</pubDate>
+      <lastBuildUpdate>Thu, 22 Dec 2022 10:21:13 GMT</lastBuildUpdate>
+      <category/>
+      <tags>openai, искусственный интеллект, нейросети, ai, 3d-моделирование</tags>
+      <format>news</format>
+      <description>
+Разработчики OpenAI открыли доступ к новой ИИ-системе Point-E, которая умеет за пару минут генерировать трёхмерные модели на основе текстового описания, сообщает TechCrunch.
+</description>
+      <author>Александра Кукуть</author>
+      <link>https://devby.io/news/v-openai-sozdali-neiroset-kotoraya-generiruet-3d-obekty-po-tekstu</link>
+      <guid>https://devby.io/news/v-openai-sozdali-neiroset-kotoraya-generiruet-3d-obekty-po-tekstu</guid>
+      <enclosure url="https://devby.io/storage/images/27/11/10/41/derived/e3c8f602a7c549c4ee25fce95e1b391e.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Tesla заморозила наём и готовит новые увольнения</title>
+      <id>tag:dev.by,2022-12-22:25177560</id>
+      <pubDate>Thu, 22 Dec 2022 08:27:00 GMT</pubDate>
+      <lastBuildUpdate>Thu, 22 Dec 2022 08:57:37 GMT</lastBuildUpdate>
+      <category>IT хрусць i папалам</category>
+      <tags>tesla, илон маск, сокращения, увольнения</tags>
+      <format>news</format>
+      <description>
+Tesla сообщила сотрудникам о приостановке найма новых кадров. Также компания проведёт новый раунд увольнений, рассказали Electrek «надёжные» источники.
+</description>
+      <author>Александра Кукуть</author>
+      <link>https://devby.io/news/tesla-zamorozila-nayom-i-gotovit-novye-uvolneniya</link>
+      <guid>https://devby.io/news/tesla-zamorozila-nayom-i-gotovit-novye-uvolneniya</guid>
+      <enclosure url="https://devby.io/storage/images/45/11/55/18/derived/b77b29bd71aaf8a97cbe4c8a4470e81d.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Что с арендой в Польше. Истории айтишников, которые переехали после 24 февраля</title>
+      <id>tag:dev.by,2022-12-22:97016806</id>
+      <pubDate>Thu, 22 Dec 2022 04:00:00 GMT</pubDate>
+      <lastBuildUpdate>Thu, 22 Dec 2022 12:26:32 GMT</lastBuildUpdate>
+      <category/>
+      <tags>long, польша</tags>
+      <format>long</format>
+      <description>
+
+rss.txt
+rss.txt. На экране.
