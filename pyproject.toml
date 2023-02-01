@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python2610"
+version = "0.1.0"
+description = ""
+authors = ["Nikita <Nikita.yavkin92@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fake-useragent = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
