@@ -59,7 +59,7 @@ def main() -> None:
               "21&curr=byn&dest=12358386,12358403,-70563," \
               "-8139704&emp=0&lang=ru&locale=by&page=" + str(page) + "&pricemarginCoeff=1&reg=0&regions=80,83,4,33," \
                                                                      "70,69,86,30,40,48,1,66,31,68," \
-                                                                     "22&sort=popular&spp=0&subject=2872;2875 "
+                                                                     "22&sort=popular&spp=0&subject=2872;2875"
         data += parsing_site(url)
 
     write_to_excel(data, name="Computers", path="computers.xls")
