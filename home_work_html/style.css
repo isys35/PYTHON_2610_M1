@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #E5E5E5;
+}
+
+
+.header img {
+    position: absolute;
+    width: 1440px;
+    height: 372px;
+    left: 0px;
+    top: 0px;
+}
+.header h1 {
+    position: absolute;
+    width: 754px;
+    height: 63px;
+    left: 145px;
+    top: 120px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 63px;
+    
+    color: #003395;
+}    
+
+.header h5 {
+    position: absolute;
+    width: 899px;
+    height: 24px;
+    left: 148px;
+    top: 210px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    /* or 18px */
+    
+    
+    color: #000000;
+}
+
+.a{
+    position: absolute;
+    width: 1440px;
+    height: 75px;
+    left: 0px;
+    top: 372px;
+    
+    background: #003395;
+    }
+
+.a .a1{
+    color: white;
+    position: absolute;
+    width: 58px;
+    height: 22px;
+    left: 149px;
+    top: 27px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-decoration: none;
+
+}
+.a .a2{
+    color: white;
+    position: absolute;
+    width: 84px;
+    height: 22px;
+    left: 269px;
+    top: 27px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.a .a3{
+    position: absolute;
+    width: 50px;
+    height: 22px;
+    left: 415px;
+    top: 27px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.a .a4{
+    position: absolute;
+    width: 61px;
+    height: 22px;
+    left: 527px;
+    top: 27px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.welcome1 h2{
+    position: absolute;
+    left: 10.28%;
+    right: 69.58%;
+    top: 522.5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 32px;
+    color: #003395;
+}
+
+.welcome1 .line1{
+    position: absolute;
+    width: 754px;
+    height: 0px;
+    left: 147px;
+    top: 504px;
+
+    border: 2px solid #003395;
+}
+
+.welcome1 .line2{
+    position: absolute;
+    width: 754px;
+    height: 0px;
+    left: 147px;
+    top: 564px;
+
+    border: 2px solid #003395;
+}
+
+.welcome1 h3{
+    position: absolute;
+width: 754px;
+height: 120px;
+left: 147px;
+top: 580px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+color: #30233D;
+}
+
+.welcome2 .line1{
+    position: absolute;
+    width: 754px;
+    height: 0px;
+    left: 147px;
+    top: 734px;
+    border: 2px solid #003395;
+}
+
+.welcome2 h2{
+    position: absolute;
+    left: 10.28%;
+    right: 69.58%;
+    top: 750px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 32px;
+    color: #003395;
+}
+
+.welcome2 .line2{
+    position: absolute;
+    width: 754px;
+    height: 0px;
+    left: 147px;
+    top: 794px;
+    border: 2px solid #003395;
+}
+
+.welcome2 h3{
+    position: absolute;
+    width: 754px;
+    height: 153px;
+    left: 147px;
+    top: 810px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #30233D;
+}
+
+.more_text .line1{
+    position: absolute;
+    width: 754px;
+    height: 0px;
+    left: 147px;
+    top: 997px;
+    border: 2px solid #003395;
+}
+
+.more_text h2{
+    position: absolute;
+    left: 10.28%;
+    right: 69.58%;
+    top: 1013.5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 32px;
+    color: #003395;
+}
+
+.more_text .line2{
+    position: absolute;
+    width: 754px;
+    height: 0px;
+    left: 147px;
+    top: 1057px;
+    border: 2px solid #003395;
+}
+
+.more_text h3{
+    position: absolute;
+    width: 754px;
+    height: 178px;
+    left: 147px;
+    top: 1073px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #30233D;
+}
+
+.footer{
+    position: absolute;
+    top: 1313px;
+    width: 1440px;
+    height: 148px;
+    left: 0px;
+    
+    background: linear-gradient(180deg, #003395 0%, #00205F 100%);
+}
+
+.footer h7{
+    position: absolute;
+    width: 198px;
+    height: 20px;
+    left: 1095px;
+    top: 45px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.7px;
+    line-height: 163.35%;
+    text-align: right;
+    color: #FCFCFC;
+}
+
+.news .box1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 362px;
+    height: 244px;
+    left: 931px;
+    top: 502px;
+    border: 2px solid #33008D;
+}
+
+.news .box2{
+    position: absolute;
+    width: 324px;
+    height: 60px;
+    left: 950px;
+    top: 521px;
+    background: #24B0FF;
+}
+
+.news .box2 h2{
+    position: absolute;
+    left: 17px;
+    top: 14px;
+    bottom: 61.19%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.news .box1 h4{
+    position: absolute;
+    left: 19px;
+    right: 53px;
+    top: 93px;
+    /* bottom: 50.72%; */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.2px;
+    line-height: 163.35%;
+    color: #30233D;
+}
+
+.some .box1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 362px;
+    height: 352.6px;
+    left: 931px;
+    top: 802px;
+    border: 2px solid #33008D;
+}
+
+.some .box2{
+    position: absolute;
+    width: 324px;
+    height: 65px;
+    left: 950px;
+    top: 824px;
+    background: #24B0FF;
+}
+
+.some .box2 h2{
+    position: absolute;
+    left: 17px;
+    right: 12.71%;
+    top: 16.66px;
+    /* bottom: 39.89%; */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.some .box1 h4{
+    position: absolute;
+    left: 19px;
+    right: 120px;
+    top: 109px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.2px;
+    line-height: 163.35%;
+    text-decoration-line: underline;
+    color: #30233D;
+}
