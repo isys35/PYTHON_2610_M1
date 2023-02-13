@@ -10,15 +10,25 @@
 """
 
 
-class TestClass:
+class VarClass:
 
-    def __init__(self, name, age):
-        self.__name = name
-        self.__age = age
-        if type(name) == str and type(age) == int:
-            print("Первый аргумент строка")
-        else:
-            print("Вы передали число")
+    def __init__(self, var1, var2):
+        if type(var1) == type(var2) == int or type(var1) == type(var2) == str:
+            self.param = var1 + var2
+
+
+def main():
+    """ Точка входа"""
+    try:
+        one = VarClass("Василий", 'Петров')
+        two = VarClass(23, 46)
+        three = VarClass(64, "Геннадий")
+        print(one.param)
+        print(two.param)
+        print(three.param)
+    except AttributeError:
+        print("Ошибка, разный тип передаваемых аргументов")
+
 
 if __name__ == '__main__':
-    a = TestClass("Лёша", 5)
+    main()

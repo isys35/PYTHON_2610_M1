@@ -11,21 +11,14 @@
 class User:
 
     def __init__(self, name, age):
-        self.__name = name
-        self.__age = age
+        self.name = name
+        self.age = age
 
     def get_user(self):
-        return f"{self.__name}: {self.__age}"
+        return self.name, self.age
 
 
 if __name__ == '__main__':
     user_one = User("Вася", 31)
     user_two = User("Игнат", 25)
     print(f"{user_one.get_user()}\n{user_two.get_user()}")
-
-
-
-
-
-
-
