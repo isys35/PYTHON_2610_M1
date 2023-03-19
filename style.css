@@ -1,0 +1,153 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 1440px;
+  height: 1000px;
+  margin: auto;
+}
+.header {
+  width: 1440px;
+  height: 372px;
+  left: 0px;
+  top: 0px;
+  background: url(sky.jpg);
+  background-position: center;
+}
+h1 {
+  margin: 0;
+  padding-top: 120px;
+  padding-left: 145px;
+  font-family: Roboto;
+  font-size: 54px;
+  font-weight: 500;
+  color: #003395;
+}
+.header p {
+  padding-left: 148px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
+.menu {
+  width: 1400px;
+}
+
+nav ul {
+  background-color:  #003395;;
+  width: 1400px;
+  height: 75px;
+  margin: 0;
+}
+nav ul li {
+	display: inline-block;
+}
+nav a {
+  display: block;
+  color: white;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 25px;
+  padding-left: 110px;
+  font-size: 18px;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.container {
+  width: 1440px;
+  padding-bottom: 40px;
+  float: left;
+}
+.left-block {
+  width: 900px;
+  height: 300px;
+  float: left;
+
+}
+.right-block {
+  width: 540px;
+  height: 300px;
+   float: left;
+
+}
+.welcome {
+  width: 755px;
+  margin-top: 60px;
+  margin-left: 150px;
+  height: 60px;
+  background-color:  white;
+  border-top: 3px solid #003395;
+  border-bottom: 3px solid #003395;
+}
+h3 {
+  font-family: Roboto;
+  font-size: 27px;
+  font-weight: 700;
+  color: #003395;
+  margin-top: 10px;
+  padding-top: 3px;
+}
+.text {
+  margin-left: 150px;
+  width: 750px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+}
+.news {
+  border: 3px solid #003395;
+  width: 360px;
+  margin-top: 58px;
+  padding-top: 10px;
+  margin-left: 30px;
+}
+h4 {
+  font-family: Roboto;
+  width: 325px;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  background:#24B0FF;
+  margin-left: 12px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-left:10px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.article {
+  width: 290px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.2px;
+  line-height: 163.35%;
+  margin-left: 12px;
+  margin-top: 0;
+
+}
+.article a {
+  color: black;
+}
+.footer {
+  background-color:  #003395;;
+  width: 1440px;
+  height: 150px;
+  margin-top: 1000px;
+}
+.foot {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163.35%;
+  margin-left: 1095px;
+  padding-top: 40px;
+  color: white;
+
+}
